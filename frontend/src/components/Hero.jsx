@@ -1,6 +1,7 @@
 import React from "react";
-import HeroImg from "../images/cinema.jpg";
+import HeroImg from "../../public/images/cinema.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -9,7 +10,7 @@ function Hero() {
         <Image
           src={HeroImg}
           alt="Hero Image"
-          className="w-[1000px] h-[400px] object-cover mt-[130px] rounded-2xl"
+          className="w-[1000px] h-[400px] object-cover rounded-2xl"
         />
       </div>
       <div className="absolute top-[230px] z-50 text-white w-[700px] mx-auto flex flex-col space-y-5 bg-gray-800/40 p-4">
@@ -21,7 +22,7 @@ function Hero() {
           lovers finding their match.
         </p>
         <button className="p-3 text-white rounded-lg w-[200px] bg-red-800 mx-auto font-bold cursor-pointer">
-          Start Discovering
+          <Link href="/discover">Start Discovering</Link>
         </button>
       </div>
     </div>
