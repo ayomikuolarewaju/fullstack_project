@@ -1,0 +1,282 @@
+{
+  "status": "success",
+  "data": {
+    "genres": [
+      {
+        "id": "A101",
+        "title": "Edge of Valor",
+        "year": 2023,
+        "rating": 7.8,
+        "duration": "2h 10m",
+        "image_url": "../images/1600.png",
+        "discover": true,
+        "trending": true,
+        "name": "Action",
+        "details": {
+          "director": "John Carter",
+          "cast": ["Mark Steel", "Anna Ryder", "Leo Burns"],
+          "language": "English",
+          "synopsis": "A retired soldier is forced back into action to save a city under siege."
+        }
+      },
+      {
+        "id": "A102",
+        "title": "Last Stand",
+        "year": 2022,
+        "rating": 6.9,
+        "duration": "1h 55m",
+        "image_url": "../images/1600.png",
+        "discover": true,
+        "trending": false,
+        "name": "Action",
+        "details": {
+          "director": "Elena Shaw",
+          "cast": ["Chris Miles", "Nina Lopez"],
+          "language": "English",
+          "synopsis": "When corrupt officials take over a town, a lone ranger makes his last stand."
+        }
+      },
+      {
+        "id": "C201",
+        "title": "Laugh Till Dawn",
+        "year": 2021,
+        "rating": 7.2,
+        "duration": "1h 45m",
+        "image_url": "../images/1600.png",
+        "discover": false,
+        "trending": true,
+        "name": "Comedy",
+        "details": {
+          "director": "Sam O'Neil",
+          "cast": ["David Kim", "Lucy Wong"],
+          "language": "English",
+          "synopsis": "Two friends find themselves in hilarious situations as they chase their dreams."
+        }
+      },
+      {
+        "id": "C202",
+        "title": "Office Clowns",
+        "year": 2023,
+        "rating": 6.5,
+        "duration": "2h 00m",
+        "image_url": "../images/1600.png",
+        "discover": true,
+        "trending": false,
+        "name": "Comedy",
+        "details": {
+          "director": "Maria Gomez",
+          "cast": ["Jake Thomas", "Sarah Green"],
+          "language": "English",
+          "synopsis": "A group of bored office workers turns their workplace into a comedy circus."
+        }
+      },
+
+      {
+        "id": "D301",
+        "title": "Silent Tears",
+        "year": 2020,
+        "rating": 8.1,
+        "duration": "2h 20m",
+        "image_url": "../images/1600.png",
+        "discover": true,
+        "trending": false,
+        "name": "Drama",
+        "details": {
+          "director": "Oliver Reed",
+          "cast": ["Clara Jones", "Michael Grant"],
+          "language": "English",
+          "synopsis": "A young woman struggles with family secrets and betrayal in a small town."
+        }
+      },
+      {
+        "id": "D302",
+        "title": "Broken Chains",
+        "year": 2021,
+        "rating": 7.5,
+        "duration": "2h 05m",
+        "image_url": "../images/1600.png",
+        "discover": true,
+        "trending": true,
+        "name": "Drama",
+        "details": {
+          "director": "Helen Morgan",
+          "cast": ["Daniel Stone", "Rebecca Lee"],
+          "language": "English",
+          "synopsis": "A story of resilience and hope in the face of generational trauma."
+        }
+      },
+
+      {
+        "id": "H401",
+        "title": "Night of Shadows",
+        "year": 2022,
+        "rating": 6.8,
+        "duration": "1h 50m",
+        "image_url": "../images/1600.png",
+        "discover": true,
+        "trending": true,
+        "name": "Horror",
+        "details": {
+          "director": "Victor Lane",
+          "cast": ["Sophia Ray", "Ethan Cole"],
+          "language": "English",
+          "synopsis": "A haunted town reveals its dark past as evil awakens."
+        }
+      },
+      {
+        "id": "H402",
+        "title": "Whispers in the Dark",
+        "year": 2023,
+        "rating": 7.0,
+        "duration": "1h 40m",
+        "image_url": "../images/1600.png",
+        "discover": false,
+        "trending": false,
+        "name": "Horror",
+        "details": {
+          "director": "Nina Clarke",
+          "cast": ["Liam Torres", "Eva Brooks"],
+          "language": "English",
+          "synopsis": "A family moves into a house where whispers never stop at night."
+        }
+      },
+      {
+        "id": "R501",
+        "title": "Love in Autumn",
+        "year": 2023,
+        "rating": 7.9,
+        "duration": "2h 05m",
+        "image_url": "../images/1600.png",
+        "discover": true,
+        "trending": true,
+        "name": "Romance",
+        "details": {
+          "director": "Amelia Brooks",
+          "cast": ["Emma Hill", "Jack Ryan"],
+          "language": "English",
+          "synopsis": "A heartfelt romance blossoms against the backdrop of falling leaves."
+        }
+      },
+      {
+        "id": "R502",
+        "title": "Forever Yours",
+        "year": 2021,
+        "rating": 6.8,
+        "duration": "1h 50m",
+        "image_url": "../images/1600.png",
+        "discover": false,
+        "trending": false,
+        "name": "Romance",
+        "details": {
+          "director": "David Wilson",
+          "cast": ["Sophie Reed", "Noah James"],
+          "language": "English",
+          "synopsis": "A love tested by distance and time finds a way to survive."
+        }
+      },
+      {
+        "id": "S601",
+        "title": "Galactic Dawn",
+        "year": 2024,
+        "rating": 8.3,
+        "duration": "2h 30m",
+        "image_url": "../images/1600.png",
+        "discover": true,
+        "trending": true,
+        "name": "Sci-Fi",
+        "details": {
+          "director": "Alex Carter",
+          "cast": ["James Cole", "Maya Zhang"],
+          "language": "English",
+          "synopsis": "Humans fight for survival as a new galactic empire rises."
+        }
+      },
+      {
+        "id": "S602",
+        "title": "Neon Future",
+        "year": 2022,
+        "rating": 7.4,
+        "duration": "2h 00m",
+        "image_url": "../images/1600.png",
+        "discover": false,
+        "trending": false,
+        "name": "Sci-Fi",
+        "details": {
+          "director": "Clara White",
+          "cast": ["Aaron Blake", "Lila Carter"],
+          "language": "English",
+          "synopsis": "A hacker discovers the truth about humanity’s cyber overlords."
+        }
+      },
+      {
+        "id": "AN701",
+        "title": "Dreamscape Adventures",
+        "year": 2021,
+        "rating": 7.4,
+        "duration": "1h 40m",
+        "image_url": "../images/1600.png",
+        "discover": true,
+        "trending": false,
+        "name": "Animation",
+        "details": {
+          "director": "Rachel Adams",
+          "cast": ["Voice of Tom Lee", "Voice of Mia Clark"],
+          "language": "English",
+          "synopsis": "A group of kids travel into their dreams to fight nightmares."
+        }
+      },
+      {
+        "id": "AN702",
+        "title": "Kingdom of Colors",
+        "year": 2023,
+        "rating": 8.0,
+        "duration": "1h 55m",
+        "image_url": "../images/1600.png",
+        "discover": true,
+        "trending": true,
+        "name": "Animation",
+        "details": {
+          "director": "Oliver Nash",
+          "cast": ["Voice of Lily Evans", "Voice of Ryan Moore"],
+          "language": "English",
+          "synopsis": "A magical world of colors is saved by two young heroes."
+        }
+      },
+
+      {
+        "id": "DOC801",
+        "title": "Oceans of Time",
+        "year": 2019,
+        "rating": 8.5,
+        "duration": "1h 30m",
+        "image_url": "../images/1600.png",
+        "discover": true,
+        "trending": false,
+        "name": "Documentary",
+        "details": {
+          "director": "Laura Mitchell",
+          "cast": ["Narrator: Morgan Freeman"],
+          "language": "English",
+          "synopsis": "Exploring the history and mysteries hidden beneath the oceans."
+        }
+      },
+      {
+        "id": "DOC802",
+        "title": "Earth’s Fragile Balance",
+        "year": 2022,
+        "rating": 8.9,
+        "duration": "1h 45m",
+        "image_url": "../images/1600.png",
+        "discover": false,
+        "trending": true,
+        "name": "Documentary",
+        "details": {
+          "director": "Henry Davis",
+          "cast": ["Narrator: Cate Blanchett"],
+          "language": "English",
+          "synopsis": "A deep dive into climate change and its impact on global ecosystems."
+        }
+      }
+    ]
+  }
+}

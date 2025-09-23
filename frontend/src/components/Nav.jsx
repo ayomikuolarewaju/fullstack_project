@@ -18,9 +18,13 @@ function Nav() {
         <div className="flex items-center justify-between  font-semibold text-black no-underline w-2/3">
           {menus.map((menu, index) => (
             <div key={index}>
-              <div><a href={menu.go}>
-                <p className="cursor-pointer w-[100px] text-center">{menu.title}</p>
-              </a></div>
+              <div>
+                <a href={menu.go}>
+                  <p className="cursor-pointer w-[100px] text-center">
+                    {menu.title}
+                  </p>
+                </a>
+              </div>
             </div>
           ))}
         </div>
@@ -31,7 +35,7 @@ function Nav() {
       </div>
       <div>
         <button className="p-3 text-white rounded-lg w-[100px] bg-red-800 mx-auto font-bold capitalise cursor-pointer">
-          Sign In
+          <Link href="/login">Sign In</Link>
         </button>
       </div>
     </div>
