@@ -13,7 +13,7 @@ function Hero() {
           className="w-[1000px] h-[400px] object-cover rounded-2xl"
         />
       </div>
-      <div className="absolute top-[230px] z-50 text-white w-[700px] mx-auto flex flex-col space-y-5 bg-gray-800/40 p-4">
+      <div className="absolute top-[350px] z-50 text-white w-[700px] mx-auto flex flex-col space-y-5 bg-gray-800/40 p-4">
         <h1 className="text-4xl text-center font-bold">
           Discover Your Next Favorite Movie
         </h1>

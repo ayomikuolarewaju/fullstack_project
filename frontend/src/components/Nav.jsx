@@ -8,7 +8,7 @@ function Nav() {
     { title: "My List", go: "/mylist" },
   ];
   return (
-    <div className="flex items-center justify-around mx-auto p-4 text-white w-full h-[100px] mb-[100px]">
+    <div className="flex items-center justify-around mx-auto p-4 text-white w-full h-[100px] mb-[10px]">
       <div className="flex items-center justify-between w-[800px] p-4 gap-5">
         <div className="font-san text-2xl font-bold text-red-800 w-1/3 ">
           <Link href="/">
@@ -30,9 +30,6 @@ function Nav() {
         </div>
       </div>
 
-      <div className="rounded-md w-[200px]">
-        <input type="text" alt="search" />
-      </div>
       <div>
         <button className="p-3 text-white rounded-lg w-[100px] bg-red-800 mx-auto font-bold capitalise cursor-pointer">
           <Link href="/login">Sign In</Link>
