@@ -28,7 +28,7 @@ export default function MyListPage() {
       await Promise.all(
         list.map(async (entry) => {
           try {
-            const res = await fetch(`/api/movies/${entry.movie_id}`);
+            const res = await fetch(`/data/movies.json/${entry.movie_id}`);
             const json = await res.json();
             map[entry.movie_id] = json.data;
           } catch (e) {

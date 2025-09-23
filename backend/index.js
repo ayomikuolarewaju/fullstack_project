@@ -4,6 +4,7 @@ import { connectDB, disconnectDB } from "connect.js";
 import userRoute from "userRoute.js";
 import { errorHandler, notFound } from "errorHandler.js";
 import authRoute from "./authRoute.js";
+import movieRoute from "./movieRoute.js";
 
 // Load environment variables
 dotenv.config();
@@ -18,6 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 // Routes
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
+app.use("/api/movies", movieRoute);
 
 // Health check endpoint
 app.get("/health", (req, res) => {
